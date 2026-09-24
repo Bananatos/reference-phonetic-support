@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript."
+title: "Reference Phonetic Support (RPS)"
+type: software
+authors:
+  - family-names: He
+    given-names: Jiabei
+    email: hejiabei@mail.nankai.edu.cn
+    affiliation: College of Computer Science, Nankai University
+  - family-names: Qin
+    given-names: Yong
+    email: qinyong@nankai.edu.cn
+    affiliation: College of Computer Science, Nankai University
+contact:
+  - family-names: Qin
+    given-names: Yong
+    email: qinyong@nankai.edu.cn
+    affiliation: College of Computer Science, Nankai University
+preferred-citation:
+  type: conference-paper
+  title: "Rethinking Speaker Similarity Evaluation for Zero-Shot TTS: Phonetic-Content Dependence and Reference Phonetic Support"
+  authors:
+    - family-names: He
+      given-names: Jiabei
+    - family-names: Qin
+      given-names: Yong
+  collection-title: "Submitted to the 2027 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+  year: 2027

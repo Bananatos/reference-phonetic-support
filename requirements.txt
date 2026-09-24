@@ -1,0 +1,16 @@
+# Versions observed in the original `phonemizer` environment
+# (the public environment is named `rps` in the README).
+datasets==5.0.1
+numpy==2.4.6
+panphon==0.22.2
+phonemizer==3.4.0
+pyarrow==25.0.1
+torch==2.13.0
+tqdm==4.70.0
+
+# Required by speech2pickle.py but absent from the original environment export.
+# They are intentionally left unpinned to avoid claiming unreproducible versions.
+librosa
+lhotse
+onnxruntime-gpu; platform_system != "Darwin"
+soundfile

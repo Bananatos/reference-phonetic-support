@@ -1,0 +1,49 @@
+# Local editor and Python state
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+
+# Environments and temporary outputs
+.env
+.env.*
+.venv/
+env/
+temp/
+*.tmp
+
+# Large/local corpora, checkpoints, generated audio, and experiments
+database/
+pretrained
+gen/
+TTS
+analysis/
+eval_scripts/
+exp_notes/
+gen_scripts/
+validation_exp/
+
+# Local result and shell configuration files
+overall_result.txt
+overall_enrolled_result.txt
+env.sh
+
+# Unreleased project scripts and intermediate indices
+append_ngram_rso.py
+center2ref_sample2csv.py
+correlation_compute_rso.py
+correlation_compute_rso_enrolled.py
+download_emilia_subset.sh
+draw_pics.sh
+generate_rps_sv_eval_csv.py
+read_data.py
+sample2csv.py
+test2test_sample2csv.py
+wait_GPU.py
+data_indices/*
+!data_indices/test.clean.pkl
+!data_indices/train.clean.100.pkl
+!data_indices/test.clean_x_train.clean.100_fixed_ref.csv
+!data_indices/test.clean_x_train.clean.100_fixed_tgt.csv
