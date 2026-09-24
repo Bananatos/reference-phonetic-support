@@ -16,6 +16,10 @@ This work was supported by the National Science and Technology Major Project und
 
 ## RPS definition
 
+![Schematic illustration of Reference Phonetic Support and its role in zero-shot TTS speaker-similarity evaluation](images/explanation.png)
+
+*Overview of phonetic-content dependence and Reference Phonetic Support in zero-shot TTS evaluation.*
+
 For reference phones $P_r$ and target-text phones $P_t$, the scripts compute
 
 ```math
