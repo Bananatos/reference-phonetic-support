@@ -19,7 +19,7 @@ This work was supported by the National Science and Technology Major Project und
 For reference phones $P_r$ and target-text phones $P_t$, the scripts compute
 
 ```math
-\mathrm{RPS}(r,t)=\frac{|\operatorname{set}(P_r)\cap\operatorname{set}(P_t)|}{|\operatorname{set}(P_t)|}.
+\mathrm{RPS}(r,t)=\frac{|\mathrm{set}(P_r)\cap\mathrm{set}(P_t)|}{|\mathrm{set}(P_t)|}.
 ```
 
 RPS is directional: it measures the fraction of unique target phones supported by the reference. The default strict mode treats long and short IPA phones as distinct. `test_set_construction.py` is the authoritative 1-gram implementation.
@@ -155,7 +155,7 @@ Use the same checkpoint and decoding configuration for all RPS conditions. Do no
 Use a fixed pretrained speaker-embedding model for both the generated and reference waveforms. Apply the model's required sample rate, normalization, and segmentation identically, then compute cosine similarity:
 
 ```math
-\operatorname{sim}(r,\hat{x})=
+\mathrm{sim}(r,\hat{x})=
 \frac{e_r^\top e_{\hat{x}}}
 {\lVert e_r\rVert_2\lVert e_{\hat{x}}\rVert_2}.
 ```
